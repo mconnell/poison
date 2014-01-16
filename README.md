@@ -1,6 +1,11 @@
 # Poison
+Another attempt at a cocktails website. This time with elixir.
 
-This is a project built with Elixir that uses Dynamo to serve web requests.
+## Setup
+Fetch dependencies and run the test suite:
+
+    MIX_ENV=test mix deps.get
+    mix test
 
 Resources:
 
