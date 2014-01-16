@@ -2,10 +2,20 @@
 Another attempt at a cocktails website. This time with elixir.
 
 ## Setup
+Create a Postgres database:
+
+    createdb poison_development
+
 Fetch dependencies and run the test suite:
 
     MIX_ENV=test mix deps.get
     mix test
+
+
+## Running
+
+    mix deps.get
+    iex -S mix server
 
 Resources:
 
