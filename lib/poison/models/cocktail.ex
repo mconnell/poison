@@ -1,7 +1,7 @@
 defmodule Cocktail do
   use Ecto.Model
 
-  queryable "cocktail" do
+  queryable "cocktails" do
     field :name, :string
   end
 

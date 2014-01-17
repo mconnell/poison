@@ -11,6 +11,12 @@ Fetch dependencies and run the test suite:
     MIX_ENV=test mix deps.get
     mix test
 
+## Development
+Generate and run DB migrations:
+
+    mix ecto.gen.migration Repo <migration_name_here>
+    mix ecto.migrate Repo
+
 
 ## Running
 

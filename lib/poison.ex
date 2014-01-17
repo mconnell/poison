@@ -6,6 +6,6 @@ defmodule Poison do
   application and its Dynamos.
   """
   def start(_type, _args) do
-    Poison.Dynamo.start_link([max_restarts: 5, max_seconds: 5])
+    Poison.Supervisor.start_link
   end
 end
